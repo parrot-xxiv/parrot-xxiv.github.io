@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npm-run-all --parallel tailwind:watch vite:serve",
     "build": "npm-run-all tailwind:build vite:build",
+    "deploy": "git subtree push --prefix dist origin gh-page",
     "vite:serve": "vite",
     "vite:build": "vite build",
     "tailwind:watch": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/tailwind.css --watch",
