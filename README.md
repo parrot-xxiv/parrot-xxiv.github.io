@@ -1,7 +1,4 @@
-Oil-6
-#272744
-#494D7E
-#8B6D9C
-#C69FA5
-#F2D3AB
-#FBF5EF
+### Deploy:
+1. `npm run build`
+2. `commit and push`
+3. `npm run deploy`
