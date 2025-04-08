@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Circle background -->
+  <circle cx="50" cy="50" r="45" fill="#2D3748" stroke="#81E6D9" stroke-width="5"/>
+  
+  <!-- Letter E -->
+  <text x="50%" y="50%" font-size="48" text-anchor="middle" dy=".35em" fill="#81E6D9" font-family="Arial, sans-serif">E</text>
+</svg>
