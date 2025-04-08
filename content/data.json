@@ -1,0 +1,66 @@
+{
+    "subtitle": "I'm crafting web solutions—minus the chaos.",
+    "notfoundmsg": "The page you're looking for seems to have drifted into deep space.",
+    "about": [
+        "Hey, I'm Eldren, a web developer who can definitely help you center that div. No, seriously, it's not as easy as it sounds, but don't worry, I got you.",
+        "I spend my days building websites that don't suck, and my nights wondering why \"it works on my machine\" never works on any other machine.",
+        "I'm the guy who'll turn your design mockups into functional websites without crying into my coffee. And I'm not just a front end guy—I've got the back end covered too. Whether it's setting up servers, working with APIs, or deploying your over-engineered todo list app on Kubernetes (if you're into that kind of thing), I've got you. I specialize in development and deployment.",
+        "When I'm not coding, you can find me pretending to play guitar, skating until my ankle regrets it, or doing my best to avoid the never-ending list of things I should learn.",
+        "If you need a website that's fast, functional, and actually works—or if you just want to nerd out over the latest tech trends—drop me a message. I promise I won't send you a \"hello world\" website unless you ask for it.",
+        "Let's make something amazing—or at least not terrible."
+    ],
+    "experience": [
+        {
+            "title": "Technology Engineer | Trends & Technologies, Inc.",
+            "date": "2023 - PRESENT",
+            "datetime": "2023/2025",
+            "description": "In this role, I focused on integrating various products and systems to work together efficiently. I ensured smooth data flow between platforms and resolved any technical challenges that came up. If a new product needed to be plugged into the system, I was the one making it happen without a hitch.",
+            "tags": [
+                "Docker",
+                "Kubernetes",
+                "Cloud Computing",
+                "Shell Scripting",
+                "Automation",
+                "Linux",
+                "Deployment"
+            ]
+        },
+        {
+            "title": "Developer | Trends & Technologies, Inc.",
+            "date": "2022 - 2023",
+            "datetime": "2022/2023",
+            "description": "Because I don't just stop at the front-end, I also worked on the backend. I handled and maintained internal tools, ensuring everything ran like clockwork behind the scenes. Whether it was fixing bugs or optimizing performance, I made sure nothing slipped through the cracks.",
+            "tags": [
+                "React",
+                "Express.js",
+                "TypeScript",
+                "Microservices",
+                "Git"
+            ]
+        },
+        {
+            "title": "Front-end Developer | Trends & Technologies, Inc.",
+            "date": "2021 - 2022",
+            "datetime": "2021/2022",
+            "description": "I spent my time building WordPress websites from the ground up—custom themes, plugins, the whole shebang. I worked with ACF (Advanced Custom Fields) and advanced templating to make sure everything looked sharp and worked smoothly. Plus, I made sure those websites were SEO-friendly, optimizing them so they not only looked good but also performed well on search engines. If WordPress was a canvas, I was the one painting on it—making sure people could find it too.",
+            "tags": [
+                "WordPress",
+                "PHP",
+                "HTML + CSS",
+                "JQuery",
+                "CMS",
+                "SEO"
+            ]
+        },
+        {
+            "title": "Service Engineer | Diagnostika Pilipinas, Inc.",
+            "date": "2017 - 2020",
+            "datetime": "2017/2020",
+            "description": "My first job wasn't in programming—I was all over the country, repairing medical devices. I worked on the front lines, making sure essential equipment was up and running smoothly. It wasn't glamorous, but it taught me how to troubleshoot on the fly and always stay calm under pressure. I figured out how to make things work, even when they didn't want to.",
+            "tags": [
+                "Networking",
+                "Hardware"
+            ]
+        }
+    ]
+}
