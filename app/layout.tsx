@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-        {/* <Script 
+        <Script 
           src="https://www.googletagmanager.com/gtag/js?id=G-VVMDWFE68K" 
           strategy="afterInteractive"
         />
@@ -30,7 +30,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'G-VVMDWFE68K');
           `}
-        </Script> */}
+        </Script>
       </head>
       <body className={`${inter.className} bg-slate-900`}>
         {children}
