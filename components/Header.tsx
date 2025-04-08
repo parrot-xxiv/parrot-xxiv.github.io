@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import data from '@/content/data.json';
 
-export default function Header() {
+export default function Header({ activeSection }: { activeSection: string }) {
+
+  const isActive = (menu: string) => menu === activeSection;
+
   return (
     <header className="flex lg:justify-end w-full lg:w-1/2">
       <div className="lg:fixed lg:h-screen">
@@ -11,27 +15,27 @@ export default function Header() {
               Eldren Par
             </h1>
             <h2 className="text-slate-200 text-xl">Web Developer</h2>
-            <p className="mt-5">I'm crafting web solutions—minus the chaos.</p>
+            <p className="mt-5">{data.subtitle}</p>
             <nav className="hidden lg:block">
               <ul className="justify-center p-4">
                 <li className="flex group">
-                  <span data-target="about"
-                    className="bg-white relative top-3 h-[1px] w-4 group-hover:w-10 transition-all"></span>
-                  <Link href="#about" className="ml-4 group-hover:text-white">
+                  <span
+                    className={`bg-white relative top-3 h-[1px] w-4 group-hover:w-10 ${isActive('about') && "w-10"} transition-all`}></span>
+                  <Link href="#about" className={`ml-4 group-hover:text-white ${isActive('about') && "text-white"}`}>
                     About
                   </Link>
                 </li>
                 <li className="flex group">
-                  <span data-target="experiences"
-                    className="bg-white relative top-3 h-[1px] w-4 group-hover:w-10 transition-all"></span>
-                  <Link href="#experiences" className="ml-4 group-hover:text-white">
+                  <span
+                    className={`bg-white relative top-3 h-[1px] w-4 group-hover:w-10 ${isActive('experience') && "w-10"} transition-all`}></span>
+                  <Link href="#experience" className={`ml-4 group-hover:text-white ${isActive('experience') && "text-white"}`}>
                     Experiences
                   </Link>
                 </li>
                 <li className="flex group">
-                  <span data-target="projects"
-                    className="bg-white relative top-3 h-[1px] w-4 group-hover:w-10 transition-all"></span>
-                  <Link href="#projects" className="ml-4 group-hover:text-white">
+                  <span
+                    className={`bg-white relative top-3 h-[1px] w-4 group-hover:w-10 ${isActive('projects') && "w-10"} transition-all`}></span>
+                  <Link href="#projects" className={`ml-4 group-hover:text-white ${isActive('projects') && "text-white"}`}>
                     Projects
                   </Link>
                 </li>

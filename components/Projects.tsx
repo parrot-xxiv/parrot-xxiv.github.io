@@ -1,44 +1,13 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
+import { ForwardedRef } from 'react';
 import OptimizedImage from './OptimizedImage';
 import Link from 'next/link';
 
-export default function LazyProjects() {
-  const [isVisible, setIsVisible] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    setIsMounted(true);
-
-    if (!sectionRef.current) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    observer.observe(sectionRef.current);
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
-  if (!isMounted) {
-    return <section id="projects" className="section w-full lg:w-[600px] py-10 min-h-[300px]"></section>;
-  }
+export default function Projects({ id, ref }: { id: string, ref: ForwardedRef<HTMLElement> }) {
 
   return (
-    <section ref={sectionRef} id="projects" className="section w-full lg:w-[600px] py-10">
+    <section id={id} ref={ref} className="section w-full lg:w-[600px] py-10 min-h-screen">
       <h2 className="block lg:hidden sticky top-0 py-4 text-xl text-slate-200 bg-slate-900 backdrop-blur-sm bg-opacity-40">
         Projects
       </h2>
@@ -60,7 +29,7 @@ export default function LazyProjects() {
               </svg>
             </Link>
             <p className="text-justify">
-              Demo version of TGI website showcases the company's services, products, and
+              Demo version of TGI website showcases the company&apos;s services, products, and
               values, offering visitors a professional
               and user-friendly experience to explore its solutions and expertise.
             </p>
