@@ -19,7 +19,7 @@ import { useEffect, useRef, useState } from 'react';
 //   { ssr: false, loading: () => <Loading />
 // });
 
-export default function Home() {
+  export default function Home() {
 
   const [activeSection, setActiveSection] = useState<string>('');
 
@@ -75,9 +75,6 @@ export default function Home() {
               <About id="about" ref={setSectionRef('about')} />
               <Experience id="experience" ref={setSectionRef('experience')}  />
               <Projects id="projects" ref={setSectionRef('projects')} />
-              {/* <Suspense fallback={<Loading />}>
-                <LazyProjects />
-              </Suspense> */}
             </main>
             <footer></footer>
           </div>
