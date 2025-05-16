@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px; /* or your preferred width */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #0f172a; /* slate-900 color */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #0f172a; /* teal-500 color */
+  border-radius: 4px;
+}
+
+/* Hide scrollbar arrows/buttons in Webkit browsers */
+.scrollbar-custom::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+/* For Firefox */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #dddddd #0f172a;
+}
