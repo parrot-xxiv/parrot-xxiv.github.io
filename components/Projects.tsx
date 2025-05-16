@@ -1,5 +1,5 @@
 'use client';
-import { ForwardedRef, Fragment, useState, useEffect } from 'react';
+import { ForwardedRef, Fragment, useState } from 'react';
 import OptimizedImage from './OptimizedImage'; // Assuming this component is correctly set up
 import Link from 'next/link';
 import data from '@/content/data.json'; // Ensure this path is correct and data.projects exists
