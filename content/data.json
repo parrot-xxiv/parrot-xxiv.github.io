@@ -11,9 +11,22 @@
     ],
     "experience": [
         {
+            "title": "Freelance Web Developer & Automation Specialist",
+            "date": "2025 - PRESENT",
+            "datetime": "2025/2025",
+            "description": "Building WordPress plugins, Chrome extensions, and Excel macros to make the boring stuff disappear. Whether it was wrangling CSVs or automating reports, I made sure the machines did the heavy lifting—so humans didn’t have to.",
+            "tags": [
+                "WordPress",
+                "PHP",
+                "JavaScript",
+                "Excel VBA",
+                "Chrome Extensions"
+            ]
+        },
+        {
             "title": "Technology Engineer | Trends & Technologies, Inc.",
-            "date": "2023 - PRESENT",
-            "datetime": "2023/2025",
+            "date": "2023 - 2024",
+            "datetime": "2023/2024",
             "description": "In this role, I focused on integrating various products and systems to work together efficiently. I ensured smooth data flow between platforms and resolved any technical challenges that came up. If a new product needed to be plugged into the system, I was the one making it happen without a hitch.",
             "tags": [
                 "Docker",
@@ -61,6 +74,65 @@
                 "Networking",
                 "Hardware"
             ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Trends Group, Inc. Demo",
+            "description": "Enhanced version of TGI website offering visitors a user-friendly experience to explore its solutions and expertise.",
+            "image": "images/tgi-web.webp",
+            "url": "/demo-tgi",
+            "tags": [
+                "HTML",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "title": "Trends & Technologies, Inc.",
+            "description": "The Trends & Technologies website highlights its expertise in innovative IT solutions.",
+            "image": "images/trends.webp",
+            "url": "https://www.trends.com.ph",
+            "tags": [
+                "WordPress",
+                "Elementor"
+            ]
+        },
+        {
+            "title": "iSynergy",
+            "description": "Interior Synergy Solutions (iSynergy) offers customized design and build services to local and multinational companies.",
+            "image": "images/isynergy.webp",
+            "url": "https://isynergy.ph/",
+            "tags": [
+                "WordPress"
+            ]
+        },
+        {
+            "title": "House of Maharlika",
+            "description": "Inspired by the Goonies site in Webflow, is built in WordPress.",
+            "image": "images/hom.webp",
+            "url": "https://houseofmaharlika.com/",
+            "tags": [
+                "WordPress",
+                "UI/UX"
+            ]
+        },
+        {
+            "title": "Trends Academy",
+            "description": "Trends Academy was transformed from an unmaintainable custom CMS to a user-friendly WordPress platform.",
+            "image": "images/trendsacademy.webp",
+            "url": "https://trendsacademy.com.ph/",
+            "tags": [
+                "WordPress",
+                "Custom Plugin",
+                "Custom Theme"
+            ]
+        },
+        {
+            "title": "Work in progress...",
+            "description": "Lorem Ipsum dolor sit amet ...",
+            "image": "images/600x400.webp",
+            "url": "#",
+            "tags": []
         }
     ]
 }
