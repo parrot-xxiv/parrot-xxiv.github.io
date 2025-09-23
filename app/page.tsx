@@ -8,7 +8,6 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import BackgroundCanvas from '@/components/BackgroundCanvas';
 import { useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
 
 // Dynamic import with no SSR for Three.js component
 // const DynamicBackgroundCanvas = dynamic(
