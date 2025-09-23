@@ -8,6 +8,7 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import BackgroundCanvas from '@/components/BackgroundCanvas';
 import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 
 // Dynamic import with no SSR for Three.js component
 // const DynamicBackgroundCanvas = dynamic(
@@ -19,7 +20,7 @@ import { useEffect, useRef, useState } from 'react';
 //   { ssr: false, loading: () => <Loading />
 // });
 
-  export default function Home() {
+export default function Home() {
 
   const [activeSection, setActiveSection] = useState<string>('');
 
@@ -73,10 +74,17 @@ import { useEffect, useRef, useState } from 'react';
           <div className="w-full lg:w-1/2 px-10 lg:px-0 lg:pt-20">
             <main>
               <About id="about" ref={setSectionRef('about')} />
-              <Experience id="experience" ref={setSectionRef('experience')}  />
+              <Experience id="experience" ref={setSectionRef('experience')} />
               <Projects id="projects" ref={setSectionRef('projects')} />
             </main>
-            <footer></footer>
+            <footer className="py-16 text-sm text-gray-500 text-justify">
+              <p className="mb-1">
+                Built with <span className="text-sky-500 font-medium">Next.js</span> & <span className="text-teal-500 font-medium">Tailwind CSS</span>
+              </p>
+              <p className='mb-1'>
+                &copy; 2024 Eldren Par
+              </p>
+            </footer>
           </div>
         </div>
       </div>

@@ -78,6 +78,16 @@
     ],
     "projects": [
         {
+            "title": "WordPress Collections",
+            "description": "WordPress Collections",
+            "image": "images/ecpar.webp",
+            "url": "https://ecpar.great-site.net/",
+            "tags": [
+                "WordPress",
+                "React"
+            ]
+        },
+        {
             "title": "Trends Group, Inc. Demo",
             "description": "Enhanced version of TGI website offering visitors a user-friendly experience to explore its solutions and expertise.",
             "image": "images/tgi-web.webp",
